@@ -1,7 +1,5 @@
 import type { NextConfig } from "next";
-
 const nextConfig: NextConfig = {
-  output: "export",
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -16,5 +14,4 @@ const nextConfig: NextConfig = {
     DB_PORT: process.env.DB_PORT
   }
 };
-
 export default nextConfig;
