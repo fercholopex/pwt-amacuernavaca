@@ -1,14 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: "export",
   eslint: {
-    ignoreDuringBuilds: true, // 🔹 ignora errores de ESLint
+    ignoreDuringBuilds: true,
   },
   typescript: {
-    ignoreBuildErrors: true, // 🔹 ignora errores de TypeScript
+    ignoreBuildErrors: true,
   },
-  output: "export",
-  basePath: "/out",
   env: {
     DB_HOST: process.env.DB_HOST,
     DB_USER: process.env.DB_USER,
@@ -18,6 +17,4 @@ const nextConfig: NextConfig = {
   }
 };
 
-
 export default nextConfig;
-
