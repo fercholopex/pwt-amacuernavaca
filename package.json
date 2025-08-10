@@ -5,8 +5,7 @@
   "packageManager": "npm@10.2.4",
   "scripts": {
   "dev": "next dev",
-  "build": "next build && next export",
-  "export": "next export",
+  "build": "next build",
   "start": "next start",
   "lint": "next lint"
 },
