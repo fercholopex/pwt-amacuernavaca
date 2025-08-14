@@ -15,7 +15,7 @@ const loggerMiddleware = (req, res, next) => {
 };
 // Configuración de CORS
 const corsOptions = {
-    origin: ['http://localhost:3000', 'https://pwt-amacuernavaca.vercel.app/', 'https://main.dvtnqrtgkcwv9.amplifyapp.com/'],
+    origin: ['http://localhost:3000', 'https://pwt-amacuernavaca.vercel.app'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true
